@@ -1,0 +1,142 @@
+#header{
+	font-style: Arial, sans-serif;;
+	font-size: 13px;
+	color: rgb(64,64,64);
+	float: right;
+	height: 100px;
+	position: relative;
+	padding: 5px;
+}
+
+#youButton{
+	width: 30px;
+	height: 30px;
+	float: right;
+	background: url(icons.png) -100px -55px;
+	background-repeat: no-repeat;
+	opacity: 0.55;
+	filter: alpha(opacity=55);
+}
+
+.textIconLeft{
+	float: left;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+.textIconRight{
+	float: right;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+#youButton:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.footerStyle{
+	width: 1350px;
+	height: 35px;
+	border: 1px;
+	border-style: solid;
+	border-color: Rgb(228,228,228);
+	background-color: rgb(243,243,243);
+	color:rgb(34,34,34);
+	font-style: Arial, sans-serif;
+	font-size:13px;
+	position:absolute;
+	bottom:0;
+}
+
+.signIn{
+	background-color: rgb(69,134,245);
+	border-radius: 2px;
+	float: right;
+	color: white;
+	padding: 5px;
+	border-top: 0;
+	margin: 5px
+}
+
+.signIn:hover{
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+#main{
+	clear: both;
+	height: 190px;
+	width: 538px;
+	background: url("logo11w.png");
+	background-repeat: no-repeat;
+	padding: 5px;
+}
+
+.searchBox{
+	width: 524px;
+	height: 26px;
+	border: 1px ;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.15);
+}
+
+input[type='text']{
+	background-image: url(mic.gif);
+	background-size:  17px 23px;
+	background-position: 500px 3px;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+input[type='text']:hover{
+	background-image: url(mic.gif);
+	background-size:  17px 23px;
+	background-position: 500px 3px;
+	background-repeat: no-repeat;
+	opacity:1;
+}
+
+.searchBtn{
+	background-color: rgb(243,243,243);
+	padding: 5px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.15);
+	opacity: 0.8;
+	margin: 10px;
+	color: rgb(68,68,68);
+	font-style: Arial, sans-serif;
+}
+
+.searchBtn:hover{
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.3);
+	color:rgb(64,64,64);
+	font-style: Arial, sans-serif;
+}
+
+.searchBtn:active{
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(66,133,244);
+	color:rgb(64,64,64);
+	font-style: Arial, sans-serif;
+}
+
+.ph{
+	padding-top: 140px;
+	padding-right: 30px;
+	font-style: Arial, sans-serif;
+	font-size: 20px;
+	color:rgb(64,64,64);
+	float:right;
+}
+
+a:visited{
+	color:purple;
+}
+a:active{
+	color:red;
+}
